@@ -1,4 +1,25 @@
 <div class="sidebar">
+
+    <div class="widget">
+        <h3 class="title">Recent Games</h3>
+        <ul class="tag_list">
+            {% for post in site.posts %}
+                <li><a href="{{ post.url | relative_url}}">{{ post.title }}</a></li>
+            {% endfor %}
+            <!--{% assign tag_list = site.tags %}
+            {% if tag_list.first[0] == null %}
+                {% for tag in tag_list %}
+                    <li><a href="{{ site.tag_dir | prepend: site.baseurl | replace: '//', '/' }}/{{ tag }}">{{ tag }}</a></li>
+                {% endfor %}
+            {% else %}
+                {% for tag in tag_list %}
+                    <li><a href="{{ site.tag_dir | prepend: site.baseurl | replace: '//', '/' }}/{{ tag[0] }}">{{ tag[0] }}</a></li>
+                {% endfor %}
+            {% endif %}
+            {% assign tag_list = nil %}-->
+        </ul>
+    </div>
+
     <div class="widget">
         <h3 class="title">Popular Genres</h3>
         <ul class="category_list">
@@ -15,22 +36,7 @@
             {% assign category_list = nil %}
         </ul>
     </div>
-    <!--<div class="widget">
-        <h3 class="title">Tags</h3>
-        <ul class="tag_list">
-            {% assign tag_list = site.tags %}
-            {% if tag_list.first[0] == null %}
-                {% for tag in tag_list %}
-                    <li><a href="{{ site.tag_dir | prepend: site.baseurl | replace: '//', '/' }}/{{ tag }}">{{ tag }}</a></li>
-                {% endfor %}
-            {% else %}
-                {% for tag in tag_list %}
-                    <li><a href="{{ site.tag_dir | prepend: site.baseurl | replace: '//', '/' }}/{{ tag[0] }}">{{ tag[0] }}</a></li>
-                {% endfor %}
-            {% endif %}
-            {% assign tag_list = nil %}
-        </ul>
-    </div>-->
+    
 
     <!--<div class="widget">
         <h3 class="title">Authors</h3>
