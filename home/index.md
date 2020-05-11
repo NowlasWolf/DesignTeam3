@@ -1,5 +1,5 @@
 ---
-layout: page_full
+layout: page
 featimg: playing_video_game_home.jpg
 title: Gamers Fiki
 ---
