@@ -3,10 +3,6 @@ layout: page_full
 featimg: playing_video_game_home.jpg
 title: Gamers Fiki
 ---
-## This is a full-width static page
+## Welcome!
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit voluptatibus, assumenda perspiciatis vel eos, molestias nisi cum accusantium commodi amet modi repellendus. Nostrum iure fugiat ducimus quae nesciunt distinctio ullam.
-
-Modi consequuntur, ex, quod optio perferendis delectus libero excepturi recusandae, odio earum consectetur obcaecati repellat atque natus dignissimos quidem laboriosam nisi est? Hic ex ullam aspernatur perferendis doloremque odit eius nostrum cumque repudiandae sapiente culpa voluptate qui quasi, nulla dolorum facilis ab.
-
-Excepturi atque fuga illum fugiat consequatur, obcaecati, quaerat voluptatibus! Consequuntur ut dolore impedit magni officiis a voluptatibus odio, assumenda obcaecati illo reprehenderit veniam totam dolorem optio iure eius corporis aspernatur inventore quia perspiciatis placeat ratione repellat! Voluptatem.
+Here you will find footage, screenshots, tips, and tricks for success on many popular video game titles. This website is made by gamers for gamers. We also provide a forum to meet other gamers, share your experience, and help others beat levels.
