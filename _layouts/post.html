@@ -62,6 +62,12 @@
                                 {{ page.categories | category_links }}
                             </p>
                             {% endif %}
+                            {% if page.genre %}
+                            <p class="category">
+                                <span class="name">genre:</span>
+                                {{ page.genre | category_links }}
+                            </p>
+                            {% endif %}
                             {% if page.tags %}
                             <p class="tags">
                                 <span class="name">Tags:</span>
