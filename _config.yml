@@ -1,8 +1,8 @@
 name: Twister
 description: a powerful jekyll theme
-url: https://nowlaswolf.github.io
+url: #place url
 gems: [jekyll-paginate]
-baseurl: /DesignTeam3
+baseurl: #place folder name if site is served in subfolder
 permalink: /:title/
 paginate: 8
 paginate_path: /page/:num/
