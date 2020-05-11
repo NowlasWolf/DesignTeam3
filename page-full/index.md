@@ -1,6 +1,6 @@
 ---
 layout: page_full
-featimg: 6.jpg
+featimg: playing_video_game_home.jpg
 title: Page
 ---
 ## This is a full-width static page
