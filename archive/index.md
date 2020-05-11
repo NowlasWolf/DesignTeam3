@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Game List
+title: Archive
 ---
 ## by Month
 {% include monthly_archive.html %}
