@@ -2,10 +2,10 @@
 layout: page
 title: Game List
 ---
-## by Month
-{% include monthly_archive.html %}
 
-<br/>
 
-## by Year
-{% include yearly_archive.html %}
+<ul>
+    {% for post in site.posts %}
+        <li><a href="{{ post.url | relative_url }}">{{post.title}}</a></li>
+    {% endfor %}
+<ul>
