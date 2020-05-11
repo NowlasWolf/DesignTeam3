@@ -1,7 +1,7 @@
 ---
 layout: page_full
 featimg: playing_video_game_home.jpg
-title: Page
+title: Gamers Fiki
 ---
 ## This is a full-width static page
 
