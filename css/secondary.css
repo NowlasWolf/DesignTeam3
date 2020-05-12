@@ -71,6 +71,7 @@ ul li {
 
 .widget {
     background-color:transparent !important;
+    background-color: rgba(0, 0, 0, 0.909) !important;
 }
 
 a {
@@ -80,5 +81,5 @@ a {
 .sidebar {
     color: white;
     float: right;
-    background-color: rgba(0, 0, 0, 0.909);
+    
 }
