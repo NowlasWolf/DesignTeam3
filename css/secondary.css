@@ -33,6 +33,10 @@ body {
 .post_content ul li a{
     color: black;
 }
+/* Page previous and next */
+.post_nav a{
+    color: red;
+}
 footer {
     background-color: black;
 }
