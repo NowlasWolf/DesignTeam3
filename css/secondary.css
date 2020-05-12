@@ -55,12 +55,19 @@ a {
     float: right;
     background-color: rgba(0, 0, 0, 0.909);
 }
-.oot{
-    width: 400px;
-    height: 300px;
-    
-}
 
 .listItems a{
     color: red;
 }
+.col {
+    float: left;
+    width: 49%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
