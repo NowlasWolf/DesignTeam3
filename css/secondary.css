@@ -5,9 +5,19 @@
 .slogan {
     background-color: red !important;
 }
-
+#menu{
+    background-color: transparent !important;
+    color: black !important;
+}
+#menu ul li a{
+    color: black !important;
+}
+#menu ul li a:hover{
+    color: red !important;
+}
 .main_menu {
-   background-color:transparent;
+   background-color: rgba(255, 255, 255, 0.685);
+   border-color: black;
    color: red;
 
 }
@@ -20,12 +30,39 @@
 body {
     background-image: url("../img/space-invaders2.jpg");
 }
-
+/* All content text */
 .content {
-   
+    color: black;
+}
+/* Content headers */
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6{
+    color: red;
+    padding-bottom: 20px;
+}
+/* Game list page text */
+.post_content ul li a{
+    color: black;
+}
+/* Page previous and next */
+.post_nav a{
     color: red;
 }
-
+/* back to the top */
+.backtotop{
+    color:white!important;
+}
+.backtotop:hover{
+    border-color: red !important;
+}
+/* No border on main nav */
+nav a{
+    border: none;
+}
+/* No border on main nav and color red */
+nav a:hover{
+    border: none;
+    color: red !important;
+}
 footer {
     background-color: black;
 }
@@ -44,6 +81,7 @@ ul li {
 
 .widget {
     background-color:transparent !important;
+    background-color: rgba(0, 0, 0, 0.909) !important;
 }
 
 
@@ -51,12 +89,8 @@ ul li {
 .sidebar {
     color: white;
     float: right;
-    background-color: rgba(0, 0, 0, 0.909);
 }
 
-.listItems a{
-    color: red;
-}
 .col {
     float: left;
     width: 49%;

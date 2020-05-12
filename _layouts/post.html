@@ -59,17 +59,19 @@
                             {% if page.category %}
                             <p class="category">
                                 <span class="name">Categories:</span>
-                                {{ page.categories | category_links }}
+                                {% for category in page.category %}
+                                    {{category}},
+                                {% endfor %}
                             </p>
                             {% endif %}
-                            {% if page.tags %}
+                            <!--{% if page.tags %}
                             <p class="tags">
                                 <span class="name">Tags:</span>
                                 {% for tag in page.tags %}
                                     <a href="{{ site.tag_dir | prepend: site.baseurl | replace: '//', '/' }}/{{ tag }}">{{ tag }}</a>
                                 {% endfor %}
                             </p>
-                            {% endif %}
+                            {% endif %}-->
                         </div>
                         {% endif %}
                     </article>
