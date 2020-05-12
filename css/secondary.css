@@ -65,6 +65,7 @@ nav a:hover{
 }
 footer {
     background-color: black;
+    color: white !important;
 }
 ul li {
     background-color: transparent;
