@@ -33,10 +33,6 @@ body {
 .post_content ul li a{
     color: black;
 }
-/* Popular Genres (Category) - Switch Layout on the top of the page */
-.switch{
-    color: white;
-}
 footer {
     background-color: black;
 }
