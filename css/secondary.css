@@ -46,9 +46,7 @@ ul li {
     background-color:transparent !important;
 }
 
-a {
-    color: white;
-}
+
 
 .sidebar {
     color: white;
@@ -70,4 +68,11 @@ a {
     content: "";
     clear: both;
     display: table;
+  }
+  .image{
+      width: 450px;
+      height: 350px;
+  }
+  .randomizer h2{
+      text-align: center;
   }
