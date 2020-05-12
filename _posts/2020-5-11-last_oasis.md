@@ -3,8 +3,7 @@ author: James White
 type: youtube
 yt-video-id: P9MGcFE0oDQ
 title: Last Oasis
-tags: [video, music, iframe]
-category: open-world
+category: ['OpenWorld','MMO', 'Survival']
 ---
 Last Oasis is a Nomadic Survival MMO. Earth has stopped rotating, and the last human survivors need to outrun the scorching Sun in a massive Open World. ... After a cataclysmic event halted the Earth's rotation, the planet was split into two extreme and deadly environments.
 
