@@ -20,15 +20,23 @@
 body {
     background-image: url("../img/space-invaders2.jpg");
 }
-
+/* All content text */
 .content {
     color: black;
 }
+/* Content headers */
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6{
     color: red;
     padding-bottom: 20px;
 }
-
+/* Game list page text */
+.post_content ul li a{
+    color: black;
+}
+/* Popular Genres (Category) - Switch Layout on the top of the page */
+.switch{
+    color: white;
+}
 footer {
     background-color: black;
 }
