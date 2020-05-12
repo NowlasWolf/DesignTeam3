@@ -37,6 +37,13 @@ body {
 .post_nav a{
     color: red;
 }
+/* back to the top */
+.backtotop{
+    color:white!important;
+}
+.backtotop:hover{
+    border-color: red !important;
+}
 footer {
     background-color: black;
 }
