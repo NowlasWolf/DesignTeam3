@@ -1,8 +1,8 @@
 name: GamersFiki
 description: A wiki for gamers, by gamers
-url: https://nowlaswolf.github.io
+url:
 gems: [jekyll-paginate]
-baseurl: /DesignTeam3
+baseurl:
 permalink: /:title/
 paginate: 8
 paginate_path: /page/:num/
