@@ -119,3 +119,7 @@ ul li {
   .randomizer h2{
       text-align: center;
   }
+
+  .ts_logo{
+      height: 100% !important;
+  }
