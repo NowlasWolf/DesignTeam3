@@ -9,6 +9,11 @@
     background-color: transparent !important;
     color: black !important;
 }
+@media screen and (max-width: 1068px) {
+    #menu.active{
+        background-color: white !important;
+    }
+}
 #menu ul li a{
     color: black !important;
 }
